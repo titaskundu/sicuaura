@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="409dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="729dp"
+    android:layout_marginTop="16dp"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hero"
+        tools:context=".Registration">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Registration"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Create Account"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                tools:layout_height="24dp" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="Please fill the input below here"
+                android:textColor="#96939E"
+                android:textSize="12dp"
+                tools:layout_height="24dp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="username"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Email/phone number"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="phone number"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/IMEI1"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="IMEI Number 1"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/IMEI2"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="IMEI number 2"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/IMEI3"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="IMEI number 3"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/poppins_light"
+
+
+                android:text="Government id proof:"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/gid"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Government Id"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Address"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/proof"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="AddressProof"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="349dp"
+
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Create Password"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/Reenter"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Re-Enter password"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <EditText
+                android:id="@+id/referral"
+                android:layout_width="349dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="#302942"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:text="Referral Code(optional)"
+                android:textColor="#95929D"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="31dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:buttonTint="@color/white"
+
+                android:fontFamily="@font/poppins_light"
+                android:text="I agree to the Terms &amp; Conditions"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="349dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="@font/poppins_semibold"
+
+                android:text="SIGN UP"
+                android:textColor="@color/black"
+
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="619dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="373dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/poppins_light"
+                android:text="already have an account? Sign In"
+                android:textColor="@color/white"
+
+                android:textSize="14dp"
+                android:textAlignment="center"/>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
